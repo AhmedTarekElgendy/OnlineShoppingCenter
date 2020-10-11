@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnlineShoppingSystemModelStoreContainer" CdmEntityContainer="OnlineShoppingSystemEntities12">
+    <EntitySetMapping Name="Buyings">
+      <EntityTypeMapping TypeName="OnlineShoppingSystemModel.Buying">
+        <MappingFragment StoreEntitySet="Buying">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cards">
+      <EntityTypeMapping TypeName="OnlineShoppingSystemModel.Card">
+        <MappingFragment StoreEntitySet="Card">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ProductFactory" ColumnName="ProductFactory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Factories">
+      <EntityTypeMapping TypeName="OnlineShoppingSystemModel.Factory">
+        <MappingFragment StoreEntitySet="Factories">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="OnlineShoppingSystemModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NumInStock" ColumnName="NumInStock" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="Factory_ID" ColumnName="Factory_ID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="OnlineShoppingSystemModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetCard" FunctionName="OnlineShoppingSystemModel.Store.GetCard">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="OnlineShoppingSystemModel.GetCard_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NumInStock" ColumnName="NumInStock" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="Factory_Name" ColumnName="Factory_Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetProduct" FunctionName="OnlineShoppingSystemModel.Store.GetProduct">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="OnlineShoppingSystemModel.GetProduct_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NumInStock" ColumnName="NumInStock" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Factory" ColumnName="Factory" />
+          <ScalarProperty Name="FactID" ColumnName="FactID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetProductFactFromCard" FunctionName="OnlineShoppingSystemModel.Store.GetProductFactFromCard" />
+    <FunctionImportMapping FunctionImportName="GetProducts" FunctionName="OnlineShoppingSystemModel.Store.GetProducts">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="OnlineShoppingSystemModel.GetProducts_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NumInStock" ColumnName="NumInStock" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Factory" ColumnName="Factory" />
+          <ScalarProperty Name="FactID" ColumnName="FactID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="updateproducts" FunctionName="OnlineShoppingSystemModel.Store.updateproducts" />
+  </EntityContainerMapping>
+</Mapping>

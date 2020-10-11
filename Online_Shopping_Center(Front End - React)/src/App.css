@@ -1,0 +1,585 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+#imgprodback {
+  position: absolute;
+  top: 200px;
+  right: 470px;
+}
+
+#imgfactback {
+  position: absolute;
+  top: 140px;
+  right: 440px;
+}
+
+#imgedititem {
+  position: absolute;
+  top: 110px;
+  right: 440px;
+  width: 200px;
+  height: 220px;
+}
+
+#imgeditfactitem {
+  position: absolute;
+  top: 140px;
+  right: 380px;
+  width: 180px;
+  height: 180px;
+}
+
+#er {
+  color: red;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+#sltoncard {
+  margin-left: 60px;
+}
+
+#productcontainer {
+  background-color: rgb(253, 185, 57);
+  width: 790px;
+  height: 640px;
+  margin-top: 10px;
+  margin-left: 450px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+#factorycontainer {
+  background-color: rgb(253, 185, 57);
+  width: 790px;
+  height: 530px;
+  margin-top: 70px;
+  margin-left: 450px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+#imgbackground {
+  position: absolute;
+  left: 455px;
+  margin-top: 20px;
+}
+
+#formfinalbuy {
+  background-color: rgb(253, 185, 57);
+  width: 790px;
+  height: 405px;
+  margin-top: 150px;
+  margin-left: 450px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+#lbllogin {
+  margin-left: 1360px;
+  font-size: 25px;
+  cursor: pointer;
+  color: orange;
+}
+#lbllogin:hover {
+  color: black;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#dropdown {
+  width: 100%;
+  background-color: ghostwhite;
+  text-align: center;
+}
+
+#dropbtn {
+  background-color: orange;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 20px;
+}
+
+#lblloged {
+  margin-left: 1300px;
+  font-size: 22px;
+}
+
+#username {
+  font-size: 21px;
+  color: blue;
+}
+
+#logout {
+  font-size: 21px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+#logout:hover {
+  color: black;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#lblsignup {
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#lblsignup:hover {
+  color: black;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#about {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+#privacy {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+#terms {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  background-color: burlywood;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#imgfact {
+  width: 150px;
+  height: 150px;
+  margin-left: 350px;
+}
+#tblprodimg {
+  height: 50px;
+  width: 50px;
+}
+
+#btnlogin {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 430px;
+}
+
+#btnlogin1 {
+  font-size: 25px;
+  margin-left: 415px;
+}
+
+#btnback {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+#btnback1 {
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+#navheader {
+  background-color: black;
+  height: 55px;
+  position: unset;
+  color: orange;
+}
+
+#imgheader {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+#homecontainer {
+  padding: 0%;
+}
+
+#imghome {
+  margin: 5px;
+  position: initial;
+  height: 250px;
+  width: 200px;
+}
+
+#next:hover {
+  background-color: lightcoral;
+}
+
+#prev:hover {
+  background-color: lightcoral;
+}
+#next {
+  margin-left: 5px;
+}
+#prev {
+  margin-right: 5px;
+}
+
+#next,
+#prev {
+  margin-top: 0px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  height: 255px;
+  background-color: black;
+}
+
+#homebody {
+  height: 500px;
+  margin-top: 40px;
+}
+
+#marginbtn {
+  margin: 10px;
+}
+
+#footer {
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  bottom: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  color: orange;
+  text-align: center;
+}
+
+#gal {
+  margin-top: 2px;
+  margin-left: 450px;
+  position: absolute;
+  border: 3px solid darkgray;
+}
+
+#bodylabel {
+  font-size: 30px;
+  margin-left: 150px;
+  margin-top: 170px;
+  position: absolute;
+}
+
+#tblfactories {
+  font-size: 23px;
+  border: 3px solid #282c34;
+  width: 65%;
+  text-align: center;
+}
+
+#innamefac {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 25px;
+  margin-bottom: 4px;
+  width: 340px;
+}
+
+#indscfac {
+  font-size: 20px;
+  margin-left: 25px;
+  margin-bottom: 4px;
+  box-sizing: border-box;
+  width: 340px;
+}
+
+#btndeletepro {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+#btndeletefac {
+  font-size: 20px;
+  margin: 3px;
+}
+
+#btnupdatepro {
+  font-size: 20px;
+  margin-left: 10px;
+  position: fixed;
+}
+
+#Addtocard:disabled,
+#Addtocard[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+#btnaddpro {
+  font-size: 20px;
+  margin: 10px;
+}
+
+#btnaddfactinfactories {
+  font-size: 20px;
+  margin: 10px;
+  margin-right: 250px;
+}
+
+#btnbacktocard {
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+#btnsave {
+  font-size: 24px;
+  margin-left: 250px;
+}
+
+#btnadd {
+  margin-left: 80px;
+  font-size: 24px;
+}
+#btnaddfact {
+  margin-left: 320px;
+  font-size: 24px;
+}
+
+#btnaddproduct {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+#btnaddfactory {
+  position: absolute;
+  font-size: 24px;
+}
+
+#btnbackproduct {
+  margin-left: 80px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+#btnsign {
+  margin-left: 80px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#productthead {
+  background-color: burlywood;
+  font-weight: bold;
+}
+
+#tblProducts {
+  width: 65%;
+  border: 2px solid black;
+  font-size: 23px;
+}
+
+#producttbodycell {
+  border: 2px solid black;
+  text-align: center;
+}
+
+#producttbodycellAddtocard {
+  border: 2px solid black;
+  text-align: center;
+  width: 130px;
+}
+
+#producttbodycelloperations {
+  border: 2px solid black;
+  width: 250px;
+}
+
+#thead {
+  background-color: burlywood;
+}
+#lbl {
+  font-size: 20px;
+  font-weight: bold;
+}
+#inp2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 40%;
+}
+
+#inplast {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 380px;
+  margin-bottom: 5px;
+  width: 300px;
+}
+
+#inplast1 {
+  font-size: 20px;
+  margin-left: 380px;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+#inplast3 {
+  font-size: 20px;
+  margin-left: 380px;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+#inplast2 {
+  font-size: 20px;
+  margin-left: 310px;
+  width: 450px;
+  margin-bottom: 5px;
+}
+
+#inp4 {
+  width: 350px;
+  margin-left: 366px;
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+#inp5 {
+  width: 350px;
+  margin-left: 366px;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+#formlogin {
+  background-image: url(./components/images/icon.png);
+  background-repeat: no-repeat;
+  background-color: rgb(253, 185, 57);
+  width: 750px;
+  height: 340px;
+  margin-top: 150px;
+  margin-left: 450px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+#error {
+  font-size: 17px;
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#error1 {
+  margin-left: 250px;
+  font-size: 17px;
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#welcomlogin {
+  position: absolute;
+  margin-left: 90%;
+  font-size: 20px;
+  background-color: silver;
+}
+
+#welcomsignup {
+  position: absolute;
+  margin-left: 80%;
+  font-size: 20px;
+  background-color: silver;
+}
+
+#container {
+  background-image: url(./components/images/img.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 825px;
+}
+
+#containerlogin {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 825px;
+}
+
+#inp {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 40%;
+  margin-top: 30px;
+}
+
+#slt {
+  width: 40%;
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#imgbtn {
+  position: absolute;
+  left: 490px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+#h1login {
+  text-align: center;
+}
+#slt2 {
+  margin-left: 420px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 246px;
+}
+
+#trbody {
+  border: 3px solid rgb(3, 3, 3);
+}
+
+.App-link {
+  color: #09d3ac;
+}
